@@ -12,7 +12,7 @@ import re
 
 def get_html(url):
     proxies={
-    # "http":"http://ip地址:端口号"
+    # "http":"http://ip地址:端口号" 
     "http":"http://36.248.133.15:9999"
     }
     headers={'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20200101 Firefox/66.0'}
